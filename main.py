@@ -11,3 +11,8 @@ if __name__ == "__main__":
     main()
 def calc_total(bill, tip_percent):
     return bill + bill * tip_percent / 100
+if total > 200:
+    print("generous tip!")
+
+for task in tasks:
+    print(task)
